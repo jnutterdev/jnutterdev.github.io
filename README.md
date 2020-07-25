@@ -1,6 +1,6 @@
 ### Simple github pages site for practicing
 
-- Coded using basic html/css
+- Coded using basic HTML/CSS
 - Minimal use of [Skeleton](http://getskeleton.com/) CSS framework
 - Web fonts:
     - [Noto Sans](https://fonts.google.com/specimen/Noto+Sans+JP?query=jp)
