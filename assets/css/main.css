@@ -45,10 +45,12 @@ footer {
 
 a, a:link, a:visited {
     color: #5F579B;
+    text-decoration: none;
 }
 a:hover {
     color: #F294EC;
-    background: black;
+    background: #012340;
+    text-decoration: underline;
 }
 h1, h2, h3, h4, h5 {
     font-family: 'Noto Sans JP', sans-serif;
