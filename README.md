@@ -6,3 +6,4 @@
     - [Noto Sans](https://fonts.google.com/specimen/Noto+Sans+JP?query=jp)
     - [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto)
 - Colors generated with [Adobe color](https://color.adobe.com/create/color-wheel)
+- This is published to Master
