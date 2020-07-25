@@ -15,8 +15,9 @@ white: edf5e1
 */
 
 body {
-    background: #05386b;
-    color: #5cdb95;
+    background: #012340;
+    color: #F294EC;
+    font-family: 'Roboto', sans-serif;
 }
 
 section {
@@ -40,4 +41,15 @@ footer {
 .container {
     background-image: url("assets/img/squiggles.png");
     background-repeat: repeat;
+}
+
+a, a:link, a:visited {
+    color: #5F579B;
+}
+a:hover {
+    color: #F294EC;
+    background: black;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Noto Sans JP', sans-serif;
 }
