@@ -1,3 +1,16 @@
+@media (max-width: 600px) {
+    .mobile {
+        position: absolute !important;
+        clear: both;
+        top: 0;
+        left: 0;
+        padding-bottom: 15px;
+        float: left;
+    }
+    .mobile-bottom {
+        margin-top: 325px;
+    }
+}
 
 body {
     background: #012340;
@@ -23,15 +36,23 @@ footer {
     margin-top: 50px;
 }
 
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
     color: #F294EC;
     text-decoration: none;
 }
+
 a:hover {
     color: #0ff;
     background: #012340;
     text-decoration: underline;
 }
-h1, h2, h3, h4, h5 {
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Noto Sans JP', sans-serif;
 }
