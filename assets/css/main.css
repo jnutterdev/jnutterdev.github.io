@@ -28,7 +28,7 @@ a, a:link, a:visited {
     text-decoration: none;
 }
 a:hover {
-    color: #F294EC;
+    color: #0ff;
     background: #012340;
     text-decoration: underline;
 }
