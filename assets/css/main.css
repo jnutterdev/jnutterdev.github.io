@@ -1,26 +1,8 @@
-@media (max-width: 600px) {
-    .mobile {
-        position: absolute !important;
-        clear: both;
-        top: 0;
-        left: 0;
-        padding-bottom: 15px;
-        float: left;
-    }
-    .mobile-bottom {
-        margin-top: 325px;
-    }
-}
-
+html,
 body {
     background: #012340;
     color: #F294EC;
     font-family: 'Roboto', sans-serif;
-}
-
-section {
-    display: block;
-    margin-top: 100px;
 }
 
 img {
@@ -28,12 +10,15 @@ img {
     display: block;
     max-width: 100%;
     margin-left: 20px;
+    border-radius: 100px;
 }
 
-footer {
+.footer {
     text-align: center;
     display: block;
     margin-top: 50px;
+    background: #012340;
+    color: #F294EC;
 }
 
 a,
@@ -53,6 +38,12 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+.content h5 {
     font-family: 'Noto Sans JP', sans-serif;
+    color: #F294EC;
+}
+
+.header {
+    height: 150px;
 }

@@ -8,41 +8,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/Skeleton-2.0.4/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/Skeleton-2.0.4/css/skeleton.css">
+
+    <link rel="stylesheet" href="assets/css/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
-    <div>
-        <section>
-            <div class="section hero">
-                <div class="container">
-                    <div class="row">
-                        <div class="one-half column mobile-bottom">
-                            <h4 id="text-display" class="hero-heading" onmouseover="changeText()" onmouseout="defaultText('Hello, I\'m John Nutter!')">Hello, I'm John Nutter!</h4>
-                            <p>I’m a customer support technician that has been working for an Atlanta based software company for the last seven years. I have a passion for web development, with some familiarity of PHP, Python, and Ruby. </p>
-                            <p>
-                                My goal is to find a position as a full stack developer. I will also incorporate my understanding of programming languages, Linux systems, and my love of problem-solving and troubleshooting.</p>
-                            <p>
-                                In my free time, I’m spending time with my wife and son, music production with Bitwig, or graphic design with Affinity Designer. I’ve released a few albums over the years, but mostly as a hobby.</p>
-                            <p>
-                                I also really like any sci-fi, reading comic books, listening to podcasts, or catching up on the latest industry news.</p>
-                        </div>
-                        <div class="one-half column mobile">
-                            <img src="assets/img/johngrayfilt.png" alt="John profile pic">
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container">
+        <div class="header">
+        </div>
     </div>
 
-    </section>
-    <footer>
-        <div class="container">
-            <h5>&copy; 2020. All content and design by <a href="mailto:hello@jnutterdev.com">John Nutter.</a></h5>
+
+    <div class="container">
+        <div class="columns">
+            <div class="column ">
+                <h4 id="text-display" class="hero-heading is-size-3" onmouseover="changeText()" onmouseout="defaultText('Hello, I\'m John Nutter!')">Hello, I'm John Nutter!</h4>
+                <p class="is-size-5 mt-4">I’m a customer support technician that has been working for an Atlanta based software company for the last seven years. I have a passion for web development, with some familiarity of PHP, Python, and Ruby. </p>
+                <p class="is-size-5 mt-4">
+                    My goal is to find a position as a full stack developer. I will also incorporate my understanding of programming languages, Linux systems, and my love of problem-solving and troubleshooting.</p>
+                <p class="is-size-5 mt-4">
+                    In my free time, I’m spending time with my wife and son, music production with Bitwig, or graphic design with Affinity Designer. I’ve released a few albums over the years, but mostly as a hobby.</p>
+                <p class="is-size-5 mt-4">
+                    I also really like any sci-fi, reading comic books, listening to podcasts, or catching up on the latest industry news.</p>
+            </div>
+
+            <div class="column">
+                <img src="assets/img/jndev.jpg" alt="John profile pic">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="tile-section">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    Insert projects here
+                </div>
+                <div class="tile is-vertical is-8">
+                    Insert project here
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <h5>&copy; 2020. All content and design by <a href="mailto:hello@jnutterdev.com">John Nutter.</a></h5>
+            </p>
         </div>
     </footer>
+
     <script src="assets/js/main.js"></script>
     </div>
 </body>
