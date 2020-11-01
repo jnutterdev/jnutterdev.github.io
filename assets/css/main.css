@@ -42,13 +42,15 @@ h2,
 h3,
 h4,
 h5,
-.content h5 {
-    font-family: 'Noto Sans JP', sans-serif;
+.content h5,
+.level p {
+    font-family: 'Press Start 2P', cursive;
     color: #F294EC;
 }
 
 .header {
     height: 150px;
+    padding: 10px;
 }
 
 .lower-half {
@@ -62,3 +64,9 @@ h5,
     background: #012340;
     color: #F294EC;
 }
+
+.hero-section {
+    margin-top: 50px;
+}
+
+.
