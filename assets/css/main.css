@@ -1,7 +1,7 @@
 html,
 body {
-    background: #012340;
-    color: #F294EC;
+    background: #DCB980;
+    color: #723D80;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -27,7 +27,7 @@ img {
 a,
 a:link,
 a:visited {
-    color: #F294EC;
+    color: #723D80;
     text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ h5,
 .content h5,
 .level p {
     font-family: 'Press Start 2P', cursive;
-    color: #F294EC;
+    color: #723D80;
 }
 
 .header {
@@ -62,7 +62,7 @@ h5,
     display: block;
     margin-top: 50px;
     background: #012340;
-    color: #F294EC;
+    color: #723D80;
 }
 
 .hero-section {
