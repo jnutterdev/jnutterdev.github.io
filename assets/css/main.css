@@ -1,7 +1,8 @@
 html,
 body {
-    background: #DCB980;
-    color: #723D80;
+    background: #fff;
+    background-image: url("../../assets/img/memphis-colorful.png");
+    color: #4f3329;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -27,7 +28,7 @@ img {
 a,
 a:link,
 a:visited {
-    color: #723D80;
+    color: #4f3329;
     text-decoration: none;
 }
 
@@ -45,12 +46,13 @@ h5,
 .content h5,
 .level p {
     font-family: 'Press Start 2P', cursive;
-    color: #723D80;
+    color: #4f3329;
 }
 
 .header {
     height: 150px;
     padding: 10px;
+    background: #fff;
 }
 
 .lower-half {
@@ -61,12 +63,13 @@ h5,
     text-align: center;
     display: block;
     margin-top: 50px;
-    background: #012340;
-    color: #723D80;
+    background: #fff;
+    color: #4f3329;
 }
 
 .hero-section {
     margin-top: 50px;
+    background: #fff;
 }
 
 .
