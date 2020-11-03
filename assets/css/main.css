@@ -38,8 +38,7 @@ h5,
 }
 
 .header {
-    height: 150px;
-    padding: 10px;
+    padding: 10px 0;
     background: #fff;
 }
 
@@ -53,6 +52,10 @@ h5,
     margin-top: 50px;
     background: #fff;
     color: #4f3329;
+}
+
+.footer>h5 {
+    display: inline-block;
 }
 
 .hero-section {
@@ -78,4 +81,20 @@ p>span {
     animation: bounce;
     animation-duration: 30s;
     color: #054588;
+}
+
+.nav-cont {
+    width: 60%;
+}
+
+.canvas-container {
+    display: flex;
+    margin: 0 auto;
+    background: teal;
+}
+
+canvas {
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: white;
 }
