@@ -16,87 +16,87 @@
 </head>
 
 <body>
-    <div class="background-fix">
-        <div class="container nav-cont">
-            <div class="header">
-                <nav class="level">
-                    <p class="level-item has-text-centered">
-                        <a class="link is-info" href="#home">Home</a>
-                    </p>
+    <div class="container">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
 
-                    <p class="level-item has-text-centered ">
+                <div class="player-conrols">
 
+                    <a href="#start" id="start-button"><img src="assets/img/play-button.svg" alt="Play music" srcset=""></a>
+                    <a href="#stop" id="stop-button"><img src="assets/img/stop-button.svg" alt="Stop music" srcset=""></a>
 
-                    </p>
-
-                    <p class="level-item has-text-centered">
-                        <a href="#about" class="link is-info">About</a>
-                    </p>
-                </nav>
-            </div>
-        </div>
-
-
-        <div class="container hero-section">
-            <div class="columns">
-                <div class="column ">
-                    <h4 id="text-display" class="hero-heading is-size-3">Hello, I'm John Nutter!</h4>
-                    <p class="is-size-5 mt-4">I’m a<span class="animate__animated animate__rubberBand animate__repeat-2">full stack developer</span>that has been working for an Atlanta based software company for the last seven years. I have a passion for web development user mostly
-                        JavaScript, React, and MongoDB. I also have an affinity for Python and Django.</p>
-                    <p class="is-size-5 mt-4">
-                        My goal is to find a position as a full stack developer. I will also incorporate my understanding of programming languages, Linux systems, and my love of problem-solving and troubleshooting.</p>
-                    <p class="is-size-5 mt-4">
-                        In my free time, I’m spending time with my wife and son, music production with Bitwig, or graphic design with Affinity Designer. I’ve released a few albums over the years, but mostly as a hobby.</p>
-                    <p class="is-size-5 mt-4">
-                        I also really like any sci-fi, reading comic books, listening to podcasts, or catching up on the latest industry news.</p>
                 </div>
 
-                <div class="column">
-                    <img src="assets/img/80sjohn.png" alt="John profile pic">
-                </div>
+
             </div>
-            <div class="container canvas-container">
-                <canvas id="sounds" width="600" height="300"></canvas>
+        </nav>
+    </div>
+
+
+    <div class="container hero-section">
+        <div class="columns">
+            <div class="column ">
+                <h4 id="text-display" class="hero-heading is-size-3">Hello, I'm John Nutter!</h4>
+                <p class="is-size-5 mt-4">I’m a<span class="animate__animated animate__rubberBand animate__repeat-2">full stack developer</span>that has been working for an Atlanta based software company for the last seven years. I have a passion for web development user mostly
+                    JavaScript, React, and MongoDB. I also have an affinity for Python and Django.</p>
+                <p class="is-size-5 mt-4">
+                    My goal is to find a position as a full stack developer. I will also incorporate my understanding of programming languages, Linux systems, and my love of problem-solving and troubleshooting.</p>
+                <p class="is-size-5 mt-4">
+                    In my free time, I’m spending time with my wife and son, music production with Bitwig, or graphic design with Affinity Designer. I’ve released a few albums over the years, but mostly as a hobby.</p>
+                <p class="is-size-5 mt-4">
+                    I also really like any sci-fi, reading comic books, listening to podcasts, or catching up on the latest industry news.</p>
             </div>
 
+            <div class="column">
+                <img src="assets/img/80sjohn.png" alt="John profile pic">
+            </div>
         </div>
+    </div>
 
 
 
-        <div class="container lower-half">
-            <div class="project-section">
-                <div class="tile is-ancestor">
-                    <div class="tile is-vertical is-3">
-                        <img src="https://via.placeholder.com/150/F294EC/ffffff" alt="">
-                    </div>
-                    <div class="tile is-vertical is-3">
-                        <img src="https://via.placeholder.com/150/F294EC/ffffff" alt="">
-                    </div>
-                    <div class="tile is-vertical is-3">
-                        <img src="https://via.placeholder.com/150/F294EC/ffffff" alt="">
-                    </div>
-                    <div class="tile is-vertical is-3">
-                        <img src="https://via.placeholder.com/150/F294EC/ffffff" alt="">
-                    </div>
+    <div class="container lower-half">
+        <div class="project-section">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-3">
+                    <img src="assets/img/computer.svg" alt="">
+                </div>
+                <div class="tile is-vertical is-3">
+                    <img src="assets/img/computer.svg" alt="">
+                </div>
+                <div class="tile is-vertical is-3">
+                    <img src="assets/img/computer.svg" alt="">
+                </div>
+                <div class="tile is-vertical is-3">
+                    <img src="assets/img/computer.svg" alt="">
                 </div>
             </div>
         </div>
+    </div>
 
 
-        <footer class="footer">
-            <div class="content has-text-centered">
-                <p>
-                    <img src="../assets/img/pixeljohn.png" alt="jnutter logo" style="width: 5%;">
-                    <h5>&copy; 2020. All content and design by <a href="mailto:hello@jnutterdev.com">John Nutter.</a></h5>
-                </p>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <h5>&copy; 2020. All content, music, and design by <a href="mailto:hello@jnutterdev.com">John Nutter.</a></h5>
+            </p>
+            <div class="social">
+                <a href="https://github.com/jnutterdev"><img src="assets/img/github.svg" alt="jnutterdev on Github" srcset=""></a>
+                <a href="https://twitter.com/terribledevice"><img src="assets/img/twitter.svg" alt="John Nutter on Twitter" srcset=""></a>
             </div>
-        </footer>
 
-        <script src="assets/js/main.js"></script>
-        <script src="https://unpkg.com/tone@13.8.25/build/Tone.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/foobar404/wave.js/dist/bundle.iife.js"></script>
-        <script src="https://github.com/riteshkukreja/sine-wave/blob/master/Wave.min.js"></script>
-        <script src="assets/js/sounds.js"></script>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/tone@14.7.58/build/Tone.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/foobar404/wave.js/dist/bundle.iife.js"></script>
+    <script src="https://github.com/riteshkukreja/sine-wave/blob/master/Wave.min.js"></script>
+    <script src="assets/js/sounds.js"></script>
     </div>
     </div>
 </body>

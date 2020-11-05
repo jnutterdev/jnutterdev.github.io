@@ -22,7 +22,6 @@ a:visited {
 
 a:hover {
     color: #0ff;
-    background: #012340;
     text-decoration: underline;
 }
 
@@ -32,7 +31,8 @@ h3,
 h4,
 h5,
 .content h5,
-.level p {
+.level p,
+li {
     font-family: 'Press Start 2P', cursive;
     color: #4f3329;
 }
@@ -87,14 +87,37 @@ p>span {
     width: 60%;
 }
 
-.canvas-container {
-    display: flex;
+.social {
     margin: 0 auto;
-    background: teal;
+    display: flex;
+    width: 200px;
 }
 
-canvas {
+.social img,
+{
+    width: 40px;
+    height: auto;
+}
+
+.social img:hover {
+    transform: scale(2.0);
+}
+
+.fixed-navbar {
+    display: flex;
+    width: 800px;
+}
+
+.player-conrols {
+    border: none;
+    text-align: right;
+    display: flex;
+}
+
+.player-conrols img {
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
     margin: 0 auto;
-    border: 1px solid black;
-    background-color: white;
+    background: transparent;
 }
