@@ -5,9 +5,11 @@ const stopButton = document.getElementById("stop-button");
 
 Tone.loaded().then(() => {
 
-    player.loop = true;
-    player.start(0.1);
+    Tone.context.resume().then(() => {
 
+        player.loop = true;
+        player.start(0.1);
+    })
     stopButton.addEventListener('click', () => {
         player.stop();
     })
