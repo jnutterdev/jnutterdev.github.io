@@ -17,40 +17,41 @@
 
 <body>
     <div class="container">
+
+        <!--========= HEADER AND NAVIGATION ELEMENTS ==============-->
         <div class="tabs">
             <ul>
                 <li class="is-active"><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-
             </ul>
+        </div>
 
-
-            <div class="player-conrols">
-
-                <a href="#start" id="start-button"><img src="assets/img/play-button.svg" alt="Play music" srcset=""></a>
-                <a href="#stop" id="stop-button"><img src="assets/img/stop-button.svg" alt="Stop music" srcset=""></a>
-
-            </div>
-
-
+        <div class="player-conrols">
+            <h5>Play some music: </h5>
+            <a href="#start" id="start-button"><img src="assets/img/play-button.svg" alt="Play music" srcset=""></a>
+            <a href="#stop" id="stop-button"><img src="assets/img/stop-button.svg" alt="Stop music" srcset=""></a>
         </div>
     </div>
 
 
-
+    <!--========= HERO SECTION OR ABOUT ME ==============-->
     <div class="container hero-section">
         <div class="columns">
-            <div class="column ">
+            <div class="column " id="about">
                 <h4 id="text-display" class="hero-heading is-size-3">Hello, I'm John Nutter!</h4>
                 <p class="is-size-5 mt-4">I’m a<span class="animate__animated animate__rubberBand animate__repeat-2">full stack developer</span>that has been working for an Atlanta based software company for the last seven years. I have a passion for web development user mostly
                     JavaScript, React, and MongoDB. I also have an affinity for Python and Django.</p>
-                <p class="is-size-5 mt-4">
-                    My goal is to find a position as a full stack developer. I will also incorporate my understanding of programming languages, Linux systems, and my love of problem-solving and troubleshooting.</p>
-                <p class="is-size-5 mt-4">
-                    In my free time, I’m spending time with my wife and son, music production with Bitwig, or graphic design with Affinity Designer. I’ve released a few albums over the years, but mostly as a hobby.</p>
-                <p class="is-size-5 mt-4">
-                    I also really like any sci-fi, reading comic books, listening to podcasts, or catching up on the latest industry news.</p>
+
+                <button class="button" id="about-button">More about me</button>
+                <div class="hidden-about">
+                    <p class="is-size-5 mt-4">
+                        My goal is to find a position as a full stack developer. I will also incorporate my understanding of programming languages, Linux systems, and my love of problem-solving and troubleshooting.</p>
+                    <p class="is-size-5 mt-4">
+                        In my free time, I’m spending time with my wife and son, music production with Bitwig, or graphic design with Affinity Designer. I’ve released a few albums over the years, but mostly as a hobby.</p>
+                    <p class="is-size-5 mt-4">
+                        I also really like any sci-fi, reading comic books, listening to podcasts, or catching up on the latest industry news.</p>
+                </div>
             </div>
 
             <div class="column">
@@ -59,27 +60,32 @@
         </div>
     </div>
 
-
+    <!--========= PROJECT SECTION ==============-->
 
     <div class="container lower-half">
-        <div class="project-section">
+        <div class="project-section" id="projects">
             <div class="tile is-ancestor">
                 <div class="tile is-vertical is-3">
                     <img src="assets/img/computer.svg" alt="">
+                    <h5>Project 1</h5>
                 </div>
                 <div class="tile is-vertical is-3">
                     <img src="assets/img/computer.svg" alt="">
+                    <h5>Project 2</h5>
                 </div>
                 <div class="tile is-vertical is-3">
                     <img src="assets/img/computer.svg" alt="">
+                    <h5>Project 3</h5>
                 </div>
                 <div class="tile is-vertical is-3">
                     <img src="assets/img/computer.svg" alt="">
+                    <h5>Project 4</h5>
                 </div>
             </div>
         </div>
     </div>
 
+    <!--========= FOOTER CONTENT ==============-->
 
     <footer class="footer">
         <div class="content has-text-centered">

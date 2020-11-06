@@ -8,7 +8,7 @@ Tone.loaded().then(() => {
     Tone.context.resume().then(() => {
 
         player.loop = true;
-        player.start(0.1);
+        // player.start(0.1);
     })
     stopButton.addEventListener('click', () => {
         player.stop();
