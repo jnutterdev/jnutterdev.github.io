@@ -10,7 +10,7 @@ img {
     width: 75%;
     display: block;
     max-width: 100%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 a,
@@ -22,7 +22,7 @@ a:visited {
 
 a:hover {
     color: #0ff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h1,
@@ -96,6 +96,7 @@ p>span {
 .social img {
     width: 40px;
     height: auto;
+    margin: 0 8px;
 }
 
 .social img:hover {
@@ -123,4 +124,12 @@ p>span {
 
 .container {
     width: 800px;
+}
+
+.column {
+    padding: 20px 40px;
+}
+
+.column img {
+    margin: 0 auto;
 }
