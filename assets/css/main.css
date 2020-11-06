@@ -93,14 +93,13 @@ p>span {
     width: 200px;
 }
 
-.social img,
-{
+.social img {
     width: 40px;
     height: auto;
 }
 
 .social img:hover {
-    transform: scale(2.0);
+    transform: scale(1.5);
 }
 
 .fixed-navbar {
@@ -120,4 +119,8 @@ p>span {
     height: 40px;
     margin: 0 auto;
     background: transparent;
+}
+
+.container {
+    width: 800px;
 }
