@@ -3,161 +3,34 @@
 html,
 body {
     background: #fff;
-    background-image: url("../../assets/img/memphis-colorful.png");
+    /* background-image: url("../../assets/img/memphis-colorful.png"); */
     color: #4f3329;
     font-family: 'Roboto', sans-serif;
 }
 
 img {
-    width: 75%;
+    width: 200px;
+    height: 200px;
     display: block;
     max-width: 100%;
+    margin: 0 auto;
     /* margin-left: 20px; */
 }
 
-a,
-a:link,
-a:visited {
-    color: #4f3329;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #0ff;
-    text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-.content h5,
-.level p,
-li {
-    font-family: 'Press Start 2P', cursive;
-    color: #4f3329;
-}
-
-
-/* HEADER AND NAVIGATION*/
-
-.header {
-    padding: 10px 0;
-    background: #fff;
-}
-
-.nav-cont {
-    width: 60%;
-}
-
-.fixed-navbar {
+.columns {
     display: flex;
-    width: 800px;
-}
-
-.player-conrols {
-    border: none;
-    display: flex;
-}
-
-.player-conrols img {
-    width: 20px;
-    height: 20px;
-    background: transparent;
-    margin: 0 5px;
-}
-
-.player-conrols img:hover {
-    transform: scale(1.5);
-}
-
-.container {
-    width: 800px;
-}
-
-
-/* HERO CONTENT */
-
-.hero-section {
-    margin-top: 50px;
-    background: #fff;
-}
-
-#content {
-    margin: 50px auto;
-    width: 50%;
-    height: 400px;
-    background: teal;
-}
-
- :root {
-    --animate-duration: 2s;
-    --animate-delay: 0.9s;
-}
-
-p>span {
-    display: inline-block;
-    margin: 0 0.5rem;
-    animation: bounce;
-    animation-duration: 30s;
-    color: #054588;
-}
-
-.column {
-    padding: 20px 40px;
-}
-
-.column img {
-    margin: 0 auto;
-}
-
-.column button {
-    margin-top: 20px;
-}
-
-.hidden-about {
-    display: none;
-}
-
-
-/* MID CONTENT/PROJECTS */
-
-.lower-half {
-    margin-top: 60px;
-}
-
-.tile>h5 {
-    padding: 12px;
-}
-
-
-/* FOOTER CONTENT */
-
-.footer {
-    text-align: center;
-    display: block;
-    margin-top: 50px;
-    background: #fff;
-    color: #4f3329;
-}
-
-.footer>h5 {
-    display: inline-block;
-}
-
-.social {
-    margin: 0 auto;
-    display: flex;
-    width: 200px;
+    flex-direction: row;
 }
 
 .social img {
-    width: 40px;
-    height: auto;
-    margin: 0 8px;
+    width: 30px;
+    height: 30px;
 }
 
-.social img:hover {
-    transform: scale(1.5);
+.column-left {
+    width: 50%;
+}
+
+.column-right {
+    width: 50%;
 }

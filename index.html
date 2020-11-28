@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/bulma/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
@@ -27,42 +27,42 @@
             </ul>
         </div>
 
-        <div class="player-conrols">
+        <!-- <div class="player-conrols">
             <h5>Play some music: </h5>
             <a href="#start" id="start-button"><img src="assets/img/play-button.svg" alt="Play music" srcset=""></a>
             <a href="#stop" id="stop-button"><img src="assets/img/stop-button.svg" alt="Stop music" srcset=""></a>
-        </div>
+        </div> -->
     </div>
 
 
     <!--========= HERO SECTION OR ABOUT ME ==============-->
-    <div class="container hero-section">
+    <div class="container">
         <div class="columns">
-            <div class="column " id="about">
+            <div class="column-left nes-balloon from-right" id="about">
                 <h4 id="text-display" class="hero-heading is-size-3">Hello, I'm John Nutter!</h4>
                 <p class="is-size-5 mt-4">I’m a<span class="animate__animated animate__rubberBand animate__repeat-2">full stack developer</span>that has been working for an Atlanta based software company for the last seven years. I have a passion for web development user mostly
                     JavaScript, React, and MongoDB. I also have an affinity for Python and Django.</p>
 
-                <button class="button" id="about-button">More about me</button>
-                <div class="hidden-about">
+                <button class="nes-btn">More about me</button>
+            </div>
+            <div class="column-right">
+                <img src="assets/img/80sjohn.png" alt="John profile pic">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="hidden-about">
                     <p class="is-size-5 mt-4">
                         My goal is to find a position as a full stack developer. I will also incorporate my understanding of programming languages, Linux systems, and my love of problem-solving and troubleshooting.</p>
                     <p class="is-size-5 mt-4">
                         In my free time, I’m spending time with my wife and son, music production with Bitwig, or graphic design with Affinity Designer. I’ve released a few albums over the years, but mostly as a hobby.</p>
                     <p class="is-size-5 mt-4">
                         I also really like any sci-fi, reading comic books, listening to podcasts, or catching up on the latest industry news.</p>
-                </div>
-            </div>
-
-            <div class="column">
-                <img src="assets/img/80sjohn.png" alt="John profile pic">
-            </div>
-        </div>
-    </div>
-
+                </div> -->
     <!--========= PROJECT SECTION ==============-->
 
-    <div class="container lower-half">
+    <div class="columns lower-half">
         <div class="project-section" id="projects">
             <div class="tile is-ancestor">
                 <div class="tile is-vertical is-3">
