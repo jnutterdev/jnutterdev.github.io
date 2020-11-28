@@ -1,20 +1,40 @@
 /* DEFAULT HTML ELEMENT STYLES */
 
-html,
-body {
-    background: #fff;
-    /* background-image: url("../../assets/img/memphis-colorful.png"); */
-    color: #4f3329;
-    font-family: 'Roboto', sans-serif;
+body,
+p,
+span {
+    font-family: 'Fira Code', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li {
+    font-family: 'Press Start 2P', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    display: block;
 }
 
 img {
-    width: 200px;
-    height: 200px;
     display: block;
     max-width: 100%;
+}
+
+.container {
+    width: 800px;
     margin: 0 auto;
-    /* margin-left: 20px; */
+}
+
+.profile {
+    margin: 0 auto;
 }
 
 .columns {
@@ -22,9 +42,16 @@ img {
     flex-direction: row;
 }
 
-.social img {
-    width: 30px;
-    height: 30px;
+.tabs {
+    margin: 0 0 50px 0;
+}
+
+.nav {
+    width: 100%;
+}
+
+.bottom {
+    margin: 50px auto;
 }
 
 .column-left {
@@ -34,3 +61,31 @@ img {
 .column-right {
     width: 50%;
 }
+
+.columns {
+    justify-content: center;
+}
+
+.project {
+    width: 20%;
+    margin: 0 26px;
+}
+
+.project h5 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+footer {
+    width: 800px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+}
+
+.social img:hover {}

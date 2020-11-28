@@ -7,8 +7,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Press+Start+2P&display=swap" rel="stylesheet">
 
 
     <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
@@ -20,11 +21,13 @@
 
         <!--========= HEADER AND NAVIGATION ELEMENTS ==============-->
         <div class="tabs">
-            <ul>
-                <li class="is-active"><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-            </ul>
+            <div class="nav nes-container is-rounded">
+                <ul class="nes-list is-circle">
+                    <li class="is-active"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
         </div>
 
         <!-- <div class="player-conrols">
@@ -32,27 +35,27 @@
             <a href="#start" id="start-button"><img src="assets/img/play-button.svg" alt="Play music" srcset=""></a>
             <a href="#stop" id="stop-button"><img src="assets/img/stop-button.svg" alt="Stop music" srcset=""></a>
         </div> -->
-    </div>
 
 
-    <!--========= HERO SECTION OR ABOUT ME ==============-->
-    <div class="container">
-        <div class="columns">
-            <div class="column-left nes-balloon from-right" id="about">
-                <h4 id="text-display" class="hero-heading is-size-3">Hello, I'm John Nutter!</h4>
-                <p class="is-size-5 mt-4">I’m a<span class="animate__animated animate__rubberBand animate__repeat-2">full stack developer</span>that has been working for an Atlanta based software company for the last seven years. I have a passion for web development user mostly
-                    JavaScript, React, and MongoDB. I also have an affinity for Python and Django.</p>
 
-                <button class="nes-btn">More about me</button>
-            </div>
-            <div class="column-right">
-                <img src="assets/img/80sjohn.png" alt="John profile pic">
+        <!--========= HERO SECTION OR ABOUT ME ==============-->
+        <div class="container">
+            <div class="columns">
+                <div class="column-left nes-balloon from-right" id="about">
+                    <h4 id="text-display" class="hero-heading is-size-3">Hello, I'm John Nutter!</h4>
+                    <p>I’m a full stack developer with a passion for web development. I use mostly JavaScript but have a passion for Django and Python.
+                    </p>
+
+                    <button class="nes-btn">More about me</button>
+                </div>
+                <div class="profile">
+                    <img class="nes-container is-centered" src="assets/img/pixeljohn.png" alt="John profile pic">
+                </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- <div class="hidden-about">
+        <!-- <div class="hidden-about">
                     <p class="is-size-5 mt-4">
                         My goal is to find a position as a full stack developer. I will also incorporate my understanding of programming languages, Linux systems, and my love of problem-solving and troubleshooting.</p>
                     <p class="is-size-5 mt-4">
@@ -60,35 +63,35 @@
                     <p class="is-size-5 mt-4">
                         I also really like any sci-fi, reading comic books, listening to podcasts, or catching up on the latest industry news.</p>
                 </div> -->
-    <!--========= PROJECT SECTION ==============-->
+        <!--========= PROJECT SECTION ==============-->
 
-    <div class="columns lower-half">
-        <div class="project-section" id="projects">
-            <div class="tile is-ancestor">
-                <div class="tile is-vertical is-3">
-                    <img src="assets/img/computer.svg" alt="">
-                    <h5>Project 1</h5>
-                </div>
-                <div class="tile is-vertical is-3">
-                    <img src="assets/img/computer.svg" alt="">
-                    <h5>Project 2</h5>
-                </div>
-                <div class="tile is-vertical is-3">
-                    <img src="assets/img/computer.svg" alt="">
-                    <h5>Project 3</h5>
-                </div>
-                <div class="tile is-vertical is-3">
-                    <img src="assets/img/computer.svg" alt="">
-                    <h5>Project 4</h5>
-                </div>
+        <div class="columns bottom">
+
+
+            <div class="project">
+                <img src="assets/img/computer.svg" alt="">
+                <h5>Project 1</h5>
             </div>
+            <div class="project">
+                <img src="assets/img/computer.svg" alt="">
+                <h5>Project 2</h5>
+            </div>
+            <div class="project">
+                <img src="assets/img/computer.svg" alt="">
+                <h5>Project 3</h5>
+            </div>
+            <div class="project">
+                <img src="assets/img/computer.svg" alt="">
+                <h5>Project 4</h5>
+            </div>
+
+
         </div>
-    </div>
 
-    <!--========= FOOTER CONTENT ==============-->
+        <!--========= FOOTER CONTENT ==============-->
 
-    <footer class="footer">
-        <div class="content has-text-centered">
+        <footer class="footer">
+
             <p>
                 <h5>&copy; 2020. All content, music, and design by <a href="mailto:hello@jnutterdev.com">John Nutter.</a></h5>
             </p>
@@ -97,14 +100,15 @@
                 <a href="https://twitter.com/terribledevice"><img src="assets/img/twitter.svg" alt="John Nutter on Twitter" srcset=""></a>
             </div>
 
-        </div>
-    </footer>
 
-    <script src="assets/js/main.js"></script>
-    <script src="https://unpkg.com/tone@14.7.58/build/Tone.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/foobar404/wave.js/dist/bundle.iife.js"></script>
-    <script src="https://github.com/riteshkukreja/sine-wave/blob/master/Wave.min.js"></script>
-    <script src="assets/js/sounds.js"></script>
+        </footer>
+
+        <script src="assets/js/main.js"></script>
+        <script src="https://unpkg.com/tone@14.7.58/build/Tone.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/foobar404/wave.js/dist/bundle.iife.js"></script>
+        <script src="https://github.com/riteshkukreja/sine-wave/blob/master/Wave.min.js"></script>
+        <script src="assets/js/sounds.js"></script>
+    </div>
     </div>
     </div>
 </body>
