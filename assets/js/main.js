@@ -14,14 +14,27 @@
 //     document.getElementById("text-display").style.color = "#F294EC";
 // }
 
-const aboutMe = document.getElementById("about-button");
+// const aboutMe = document.getElementById("about-button");
 
-aboutMe.addEventListener("click", () => {
-    const e = document.getElementsByClassName('hidden-about')[0];
+// aboutMe.addEventListener("click", () => {
+//     const e = document.getElementsByClassName('hidden-about')[0];
 
-    if (e.style.display === "none") {
-        e.style.display = "block";
-    } else {
-        e.style.display = "none";
-    }
+//     if (e.style.display === "none") {
+//         e.style.display = "block";
+//     } else {
+//         e.style.display = "none";
+//     }
+// });
+
+$(window).on("load", function() {
+    $('.pixelate').pixelate({
+        'focus': 0.75,
+
+    });
+});
+
+$(div).on("mouseenter mouseleave", function() {
+    $('.pixelate').pixelate({
+        'focus': 1,
+    });
 });

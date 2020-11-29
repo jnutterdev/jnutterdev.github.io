@@ -1,5 +1,9 @@
 /* DEFAULT HTML ELEMENT STYLES */
 
+body {
+    background-image: url("https://i.ytimg.com/vi/9TlmBmMonIc/maxresdefault.jpg");
+}
+
 body,
 p,
 span {
@@ -35,7 +39,11 @@ img {
 
 .profile {
     margin: 0 auto;
+    background-color: #fff;
+    border-radius: 25px;
 }
+
+.profile img {}
 
 .columns {
     display: flex;
@@ -44,10 +52,20 @@ img {
 
 .tabs {
     margin: 0 0 50px 0;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .nav {
     width: 100%;
+}
+
+ul {
+    display: inline-flex;
+}
+
+li {
+    margin: 20px 20px;
 }
 
 .bottom {
@@ -74,12 +92,22 @@ img {
 .project h5 {
     text-align: center;
     margin: 10px 0;
+    color: white;
+}
+
+.project img {
+    image-rendering: pixelated;
+}
+
+.project img:hover {
+    image-rendering: none;
 }
 
 footer {
     width: 800px;
     margin: 0 auto 50px;
     text-align: center;
+    color: white;
 }
 
 .social img {
@@ -88,4 +116,8 @@ footer {
     display: inline-flex;
 }
 
-.social img:hover {}
+.social img:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.nes-container {}
