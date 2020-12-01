@@ -1,19 +1,3 @@
-// function changeText(text)
-// {
-//     var display = document.getElementById('text-display');
-//     display.innerHTML = "";
-//     display.innerHTML = "H̶͉̓ị̵̡͂,̶̯̄ ̷̥̎Ĩ̴͍̤̅'̸̙͋ṁ̴̼̠ ̵̠̪̾̀J̵̱̄ȍ̵̗̹̌h̸̰͎̔n̷͇̍ͅ ̴̼̻̄Ṅ̵̹̣̈u̴̬̓t̶̨̧͋t̸͇́́ẹ̷̡͌̈́r̵̺͆!̶̣̎";
-//     document.getElementById("text-display").style.color = "#0ff";
-// }
-
-// function defaultText()
-// {
-//     var display = document.getElementById('text-display');
-//     display.innerHTML = "";
-//     display.innerHTML = "Hi, I'm John Nutter!";
-//     document.getElementById("text-display").style.color = "#F294EC";
-// }
-
 // const aboutMe = document.getElementById("about-button");
 
 // aboutMe.addEventListener("click", () => {
@@ -26,15 +10,10 @@
 //     }
 // });
 
-$(window).on("load", function() {
-    $('.pixelate').pixelate({
-        'focus': 0.75,
+let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
+width=400,height=400,left=-400,top=-400`;
+let button = document.getElementById('about-button');
 
-    });
-});
-
-$(div).on("mouseenter mouseleave", function() {
-    $('.pixelate').pixelate({
-        'focus': 1,
-    });
-});
+button.onclick = () => {
+    window.open('about.html', 'about', params);
+};
